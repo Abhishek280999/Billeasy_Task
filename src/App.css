@@ -1,0 +1,221 @@
+.product-list {
+  display: grid;
+  margin: auto;
+  margin-left: 100px;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  row-gap: 20px;
+  padding: 20px;
+  padding-top: 100px;
+}
+
+
+.product-card {
+  padding: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .product-list {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+  }
+
+
+
+
+.product-details {
+  margin-top: 10px;
+
+}
+
+.product-detail {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.detail-card {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+
+
+.detail-info {
+  flex: 1;
+}
+
+.quantity {
+  margin-top: 10px;
+}
+
+.quantity button {
+  margin: 0 5px;
+}
+/* App.css */
+
+/* Flex container for the header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/* Style for the category section */
+.category-section {
+  display: flex;
+  justify-content: flex-end;
+  padding: 30px;
+}
+
+/* Style for individual category */
+.category {
+  margin-left: 30px; /* Add margin for spacing */
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.category:hover {
+  text-decoration: red underline;
+  
+}
+
+/* App.css */
+
+.product-card {
+  text-align: center; /* Center the content within each product card */
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  
+}
+
+.product-link {
+  display: flex;
+  
+  flex-direction: column; /* Align children vertically */
+  align-items: center; /* Center horizontally */
+  text-align: center; /* Center text */
+  text-decoration: none; /* Remove default underline from links */
+  color: inherit; /* Inherit text color */
+}
+
+.product-link img {
+  max-width: 100%; /* Ensure images fit within their container */
+}
+
+.product-details {
+  margin-top: 10px;
+}
+
+/* App.css */
+
+.rating {
+  color: gold; /* Yellow color for filled stars */
+  margin: 10px;
+}
+
+.price{
+  font-weight: bold;
+}
+
+/* App.css */
+
+.detail-card {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  width: 55%;
+}
+.route{
+  font-weight: 120;
+  font-size: 15px;
+}
+
+.poster{
+  color: rgb(84, 227, 84);
+  font-weight: 100;
+}
+
+.detail-card img {
+  width: 300px;
+  margin-right: 20px;
+}
+
+.detail-info {
+  flex: 1;
+}
+
+.hr span{
+   color: rgb(91, 225, 91);
+}
+.quantity {
+
+  border: 1px solid #ccc;
+  width: 140px;
+}
+
+.quantity button {
+  background-color: #ccc;
+  border: none;
+  cursor: pointer;
+  padding: 12px 10px;
+  font-size: 18px;
+}
+.div{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.title{
+  font-weight: 150;
+}
+
+.quantity button:hover {
+  background-color: #e0e0e0;
+}
+
+.quantity span {
+  margin: 0 10px;
+}
+
+.button-container {
+  margin-top: 10px;
+}
+
+.add-to-cart-button {
+  padding: 10px 20px;
+  background-color: rgb(35, 216, 35);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  height: 45px;
+  width: 200px;
+}
+
+/* App.css */
+
+.product-card {
+  /* border: 1px solid #ccc; */
+  width: 70%;
+}
+
+.product-card img {
+  width: 80%; /* Make the image fill its container */
+  height: 150px; /* Set a fixed height for all images */
+  object-fit: contain; /* Maintain aspect ratio and crop if necessary */
+}
+
+
+
+
+
+
+
